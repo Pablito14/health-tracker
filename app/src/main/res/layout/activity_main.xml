@@ -8,76 +8,74 @@
 
     <TextView
         android:id="@+id/counter"
-        android:layout_width="347dp"
-        android:layout_height="26dp"
+        android:layout_width="146dp"
+        android:layout_height="23dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
         android:text="Smash that like button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="292dp"
+        android:layout_width="160dp"
         android:layout_height="43dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
         android:onClick="addToCounterOnClick"
         android:text="Smashify like"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/counter"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    //Image switcher was found on : (https://www.tutorialspoint.com/android/android_imageswitcher.htm)
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher"
+        android:layout_width="0dp"
+        android:layout_height="201dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/stopwatchRoute"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="takeMeToStopwatch"
+        android:text="go to stopwatch"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="368dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/counter">
-
-        <TextView
-            android:id="@+id/stopwatchLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Stopwatch" />
-
-        <ToggleButton
-            android:id="@+id/toggleStopwatchButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:checked="false"
-            android:text="ToggleButton"
-            android:textOff="Start"
-            android:textOn="Pause" />
-
-        <Button
-            android:id="@+id/resetButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Reset" />
-    </LinearLayout>
-
-    <EditText
-        android:id="@+id/editText3"
+    <Button
+        android:id="@+id/notification"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:inputType="none"
-        android:text="time o clock"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="sendNotification"
+        android:text="Notify me"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintTop_toBottomOf="@+id/imageSwitcher" />
+
+    <Button
+        android:id="@+id/nextImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Next Image"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/imageSwitcher" />
 
 </android.support.constraint.ConstraintLayout>
