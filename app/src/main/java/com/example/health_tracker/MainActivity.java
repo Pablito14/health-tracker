@@ -31,9 +31,19 @@ public class MainActivity extends AppCompatActivity {
         createNotificationChannel();
     }
 
+    // Credit goes to Mason Basset for the original work, & and Michelle Ferreirae for reviewing as well as optimizing
     public void addToCounterOnClick(View v){
         counter ++;
         SmashCounter.setText(Integer.toString(counter));
+//        String everyTwentyClicks = "Go Forest, its ya birthday, go, go, go, go.";
+//        String everyFiftyyClicks = "Dayyyyyyyyyyyyyyyum";
+//        String currentCountString = counter.toString();
+//        if (counter % 50 == 0){
+//            currentCountString += everyFiftyyClicks;
+//        }else if(counter % 20 == 0){
+//            currentCountString += everyTwentyClicks;
+//        }
+
     }
 
     public void takeMeToStopwatch(View v){
@@ -45,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this, CHANNEL_ID)
                 .setSmallIcon(R.drawable.notification_icon)
                 .setContentTitle("Health Tracker")
-                .setContentText("Testing text")
-                .setStyle(new NotificationCompat.BigTextStyle().bigText("Testing bigger Text"))
+                .setContentText("You can't hide from me.")
+                .setStyle(new NotificationCompat.BigTextStyle().bigText("I'm gonna find you."))
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT);
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
 
@@ -69,4 +79,32 @@ public class MainActivity extends AppCompatActivity {
             notificationManager.createNotificationChannel(channel);
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
