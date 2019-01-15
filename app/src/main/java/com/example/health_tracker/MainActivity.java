@@ -12,8 +12,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import java.util.logging.Logger;
-
 public class MainActivity extends AppCompatActivity {
 
     TextView SmashCounter;
@@ -59,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
                 .setStyle(new NotificationCompat.BigTextStyle().bigText("I'm gonna find you."))
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT);
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
-
         notificationManager.notify(notificationID ++, mBuilder.build());
     }
 
@@ -79,32 +76,4 @@ public class MainActivity extends AppCompatActivity {
             notificationManager.createNotificationChannel(channel);
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

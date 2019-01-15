@@ -1,4 +1,4 @@
-# health-tracker
+# Health-Tracker
 An Android app that will be the focus of all of the work for this half of the course: a health tracker app.
 While we’re starting small, the features that will be built will carry over into the next several labs.
 
@@ -10,7 +10,7 @@ While we’re starting small, the features that will be built will carry over in
 
     * Stretch goal: the app should show encouraging messages as the user passes milestones in their button-clicking (perhaps a message at every 10 clicks, and serious props at every 50).
 
-2. Stopwatch
+2. ~Stopwatch~ This feature has been redacted from the task list due to its difficulty
     * Still on the main page, add a stopwatch. 
         * Have a button to [Start/Pause]. The start/pause button should toggle between saying “start” and “pause.”
         * Have a [Reset] button for the clock. You should only be able to reset when the stopwatch is paused.
