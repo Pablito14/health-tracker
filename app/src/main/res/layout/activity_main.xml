@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/counter"
         android:layout_width="146dp"
-        android:layout_height="23dp"
+        android:layout_height="20dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="19dp"
         android:text="@string/smash_that_like_button"
@@ -34,12 +34,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:onClick="takeMeToStopwatch"
         android:text="@string/go_to_stopwatch"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/nextImg"
         app:layout_constraintStart_toEndOf="@+id/notification" />
 
     <Button
@@ -57,10 +55,8 @@
         android:id="@+id/nextImg"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:text="@string/next_image"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="315dp" />
 
 </android.support.constraint.ConstraintLayout>
