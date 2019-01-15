@@ -4,37 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".stopwatch">
+    tools:context=".stopwatch"
+    tools:layout_editor_absoluteY="81dp">
 
     <ToggleButton
         android:id="@+id/stratStop"
-        android:layout_width="wrap_content"
+        android:layout_width="172dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="ToggleButton"
-        android:textOff="Start"
-        android:textOn="Pause"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/togglebutton"
+        android:textOff="@string/start"
+        android:textOn="@string/pause"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/Reset"
-        android:layout_width="wrap_content"
+        android:layout_width="172dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Reset"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/stratStop"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/stopWatch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="00:00:00"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="172dp"
+        android:text="@string/_00_00_00"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stratStop" />
+        app:layout_constraintTop_toBottomOf="@+id/Reset" />
 </android.support.constraint.ConstraintLayout>
