@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">health-tracker</string>
+    <string name="app_name">Health-Tracker</string>
+    <string name="smash_that_like_button">SMASH that like button</string>
+    <string name="smashify_like">Like</string>
+    <string name="go_to_stopwatch">Go to stopwatch</string>
+    <string name="next_image">Next Image</string>
+    <string name="notify_me">Notify me</string>
 </resources>

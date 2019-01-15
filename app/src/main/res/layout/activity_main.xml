@@ -11,71 +11,56 @@
         android:layout_width="146dp"
         android:layout_height="23dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:text="Smash that like button"
+        android:layout_marginTop="19dp"
+        android:text="@string/smash_that_like_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="160dp"
+        android:layout_width="0dp"
         android:layout_height="43dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:onClick="addToCounterOnClick"
-        android:text="Smashify like"
+        android:text="@string/smashify_like"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/counter"
         app:layout_constraintTop_toTopOf="parent" />
 
-    //Image switcher was found on : (https://www.tutorialspoint.com/android/android_imageswitcher.htm)
-
-    <ImageSwitcher
-        android:id="@+id/imageSwitcher"
-        android:layout_width="0dp"
-        android:layout_height="201dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
-
     <Button
         android:id="@+id/stopwatchRoute"
-        android:layout_width="171dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:onClick="takeMeToStopwatch"
-        android:text="go to stopwatch"
+        android:text="@string/go_to_stopwatch"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/nextImg"
+        app:layout_constraintStart_toEndOf="@+id/notification" />
 
     <Button
         android:id="@+id/notification"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
         android:onClick="sendNotification"
-        android:text="Notify me"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageSwitcher" />
+        android:text="@string/notify_me"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/nextImg"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        android:text="Next Image"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageSwitcher" />
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/next_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
