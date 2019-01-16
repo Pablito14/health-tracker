@@ -51,4 +51,30 @@ Yesterday, all of your app’s features were on the home page. Let’s clear up 
 
 * Apply consistent styling across the various Activities in your app.
 * Make sure they have a consistent look and feel, and that buttons are in similar locations on each screen.
-      
+
+### Day 3
+
+1. **Database setup**
+* Set up a database to contain Exercise data.
+    * Each Exercise should have:
+        * a title
+        * a quantity
+        * a description
+        * & a timestamp.
+        
+2. **Testing**
+* For testing, add a single Exercise to the database.
+* Write tests for:
+   * Adding an exercise
+   * Retrieving exercises from the database
+   * Any logic about turning an exercise into its String representation
+   
+3. **Diary view/activity**
+* Add a new Activity to hold the Exercise Diary.
+    * In that view, display all entries from the Exercise database in a ListView. (At this point, that should show a single row.) Make sure that Exercise looks reasonable.
+   
+4. **Adding to the Exercise Diary**
+* At the top of the Exercise Diary activity, add a form that allows a user to enter data about an exercise.
+* When they hit submit, the information about that exercise should be stored in the database and displayed in the ListView. You can choose how the timestamp works: 
+    * either let the user enter when they completed the exercise
+    * or use the time when they hit submit on the form.      
