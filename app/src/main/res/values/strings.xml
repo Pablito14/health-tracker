@@ -2,7 +2,8 @@
     <string name="app_name">Health-Tracker</string>
     <string name="smash_that_like_button">Exercise your fingers</string>
     <string name="smashify_like">Flex</string>
-    <string name="go_to_stopwatch">Go to stopwatch</string>
+    <string name="go_to_stopwatch">Stopwatch</string>
+    <string name="go_to_fingercises">Fingercises</string>
     <string name="next_image">Next Image</string>
     <string name="notify_me">H2O reminder</string>
     <string name="togglebutton">ToggleButton</string>

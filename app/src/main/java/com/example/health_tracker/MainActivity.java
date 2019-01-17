@@ -14,8 +14,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView SmashCounter;
     Button notification;
+    TextView SmashCounter;
     public int counter = 0;
     public int notificationID = 0;
     private static final String CHANNEL_ID = "channelid";
@@ -49,12 +49,22 @@ public class MainActivity extends AppCompatActivity {
         startActivity(headingToStopwatch);
     }
 
+    public void takeMeToFingercises(View v){
+        Intent headingToFingercises = new Intent(this, fingerExercises.class);
+        startActivity(headingToFingercises);
+    }
+
+    public void takeMeToExerciseDiary(View v){
+        Intent headingToExerciseDiary= new Intent(this, Exercise.class);
+        startActivity(headingToExerciseDiary);
+    }
+
     public void sendNotification (View v){
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this, CHANNEL_ID)
                 .setSmallIcon(R.drawable.notification_icon)
                 .setContentTitle("Health Tracker")
-                .setContentText("You can't hide from me.")
-                .setStyle(new NotificationCompat.BigTextStyle().bigText("I'm gonna find you."))
+                .setContentText("Drink some water!")
+                .setStyle(new NotificationCompat.BigTextStyle().bigText("IT'S DEHYDRATION!"))
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT);
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
         notificationManager.notify(notificationID ++, mBuilder.build());
