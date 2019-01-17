@@ -45,17 +45,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void takeMeToStopwatch(View v){
-        Intent headingToStopwatch = new Intent(this, stopwatch.class);
+        Intent headingToStopwatch = new Intent(this, StopwatchActivity.class);
         startActivity(headingToStopwatch);
     }
 
     public void takeMeToFingercises(View v){
-        Intent headingToFingercises = new Intent(this, fingerExercises.class);
+        Intent headingToFingercises = new Intent(this, FingercisesActivity.class);
         startActivity(headingToFingercises);
     }
 
     public void takeMeToExerciseDiary(View v){
-        Intent headingToExerciseDiary= new Intent(this, Exercise.class);
+        Intent headingToExerciseDiary= new Intent(this, ExerciseActivity.class);
         startActivity(headingToExerciseDiary);
     }
 

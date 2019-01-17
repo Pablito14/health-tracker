@@ -3,7 +3,7 @@ package com.example.health_tracker;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class stopwatch extends AppCompatActivity {
+public class StopwatchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

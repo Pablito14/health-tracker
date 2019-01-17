@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class fingerExercises extends AppCompatActivity {
+public class FingercisesActivity extends AppCompatActivity {
 
     TextView SmashCounter;
     public int counter = 0;
