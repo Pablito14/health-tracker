@@ -21,31 +21,37 @@
             android:id="@+id/exerciseField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
+            android:hint="@string/name_of_exercise"
             android:inputType="text"
-            android:text="Name of exercise" />
+            tools:targetApi="o" />
 
         <EditText
             android:id="@+id/unitField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
+            android:hint="@string/reps"
             android:inputType="number"
-            android:text="Reps" />
+            tools:targetApi="o" />
 
         <EditText
             android:id="@+id/descriptionField"
             android:layout_width="match_parent"
             android:layout_height="137dp"
+            android:autofillHints=""
             android:ems="10"
+            android:hint="@string/description"
             android:inputType="text|textMultiLine|textLongMessage"
-            android:text="Description" />
+            tools:targetApi="o" />
 
         <Button
             android:id="@+id/submitExercise"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Submit"
+            android:text="@string/submit"
             android:textAllCaps="false" />
     </LinearLayout>
 

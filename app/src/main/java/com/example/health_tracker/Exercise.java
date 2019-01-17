@@ -1,5 +1,6 @@
 package com.example.health_tracker;
 
+import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
@@ -13,10 +14,20 @@ public class Exercise {
     @PrimaryKey(autoGenerate = true)
     public long id;
 
-    public String nameOfExercise, reps, description, timeStamp;
+    @ColumnInfo(name = "nameOfExercise")
+    public String nameOfExercise;
+
+    @ColumnInfo(name = "reps")
+    public String reps;
+
+    @ColumnInfo(name = "description")
+    public String description;
+
+    @ColumnInfo(name = "timeStamp")
+    public String timeStamp;
 
     //Default constructor
-    public Exercise (){};
+    public Exercise (){}
 
     //Real constructor
     public Exercise (String nameOfExercise, String reps, String description, String timeStamp){
@@ -24,7 +35,7 @@ public class Exercise {
         this.reps = reps;
         this.description = description;
         this.timeStamp = timeStamp;
-    };
+    }
 
     @Override
     public String toString(){
