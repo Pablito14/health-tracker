@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".StopwatchActivity" />
-        <activity android:name=".fingerExercises" />
+        <activity android:name=".FingercisesActivity" />
         <activity android:name=".ExerciseActivity"></activity>
     </application>
 
