@@ -28,10 +28,14 @@ public class ExerciseActivity extends AppCompatActivity {
         db = Room.databaseBuilder(getApplicationContext(), ExerciseDatabase.class, "Exercises").allowMainThreadQueries().fallbackToDestructiveMigrationFrom().build();
 
         /*seeding data ONCE*/
-//        Exercise e = new Exercise("Bicep curl", "10", "Down all the way, up all the way, slow & deep", "01-18-2019 6: 00PM");
-//        Exercise f = new Exercise("Squat with weights", "10", "Down all the way, up all the way, slow & deep", "01-18-2019 6: 05PM");
-//        Exercise g = new Exercise("Pushup", "30", "Down to 90 degrees, up all the way, slowly", "01-18-2019 6: 10PM");
-//
+        Date now = new Date();
+        String timeStamp = now.toString();
+        Exercise e = new Exercise("Bicep curl", "10", "Down all the way, up all the way, slow & deep", timeStamp);
+        Exercise f = new Exercise("Squat with weights", "10", "Down all the way, up all the way, slow & deep", timeStamp);
+        Exercise g = new Exercise("Pushup", "30", "Down to 90 degrees, up all the way, slowly", timeStamp);
+
+//        db.getExerciseDao().addExercise(e);
+//        db.getExerciseDao().addExercise(f);
 //        db.getExerciseDao().addExercise(g);
 
         /*uncomment to delete all*/

@@ -39,7 +39,7 @@ public class Exercise {
 
     @Override
     public String toString(){
-        return "Exercise: " + this.nameOfExercise + ", Reps: " + this.reps + ", Description: " + this.description + ", Completed on: " + this.timeStamp;
+        return "Exercise: " + this.nameOfExercise + "\nReps: " + this.reps + "\nDescription: " + this.description + "\nCompleted on: " + this.timeStamp;
     }
 
 }
