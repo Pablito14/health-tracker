@@ -37,5 +37,5 @@ public interface ExerciseDAO {
 
     //select all exercises
     @Query("SELECT * FROM exercise ORDER BY nameOfExercise ASC")
-    LiveData<List<Exercise>> getAllExercises();
+    List<Exercise> getAllExercises();
 }
