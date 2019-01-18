@@ -78,3 +78,7 @@ Yesterday, all of your app’s features were on the home page. Let’s clear up 
 * When they hit submit, the information about that exercise should be stored in the database and displayed in the ListView. You can choose how the timestamp works: 
     * either let the user enter when they completed the exercise
     * or use the time when they hit submit on the form.      
+
+### Day 4
+
+1. 
