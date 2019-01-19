@@ -99,15 +99,23 @@ Yesterday, all of your app’s features were on the home page. Let’s clear up 
 
 
 #### Main activity
-![main-activity][/screenshots/Screenshot_20190118-184055_Health-Tracker.jpg]
+<p float="left">
+<img src="./screenshots/Screenshot_20190118-184055_Health-Tracker.jpg" width="150" />
+</p>
 
 #### Fingercises activity
-![fingercises-activity][./screenshots/Screenshot_20190118-184113_Health-Tracker.jpg]
+<p float="left">
+<img src="./screenshots/Screenshot_20190118-184113_Health-Tracker.jpg" width="150" />
+</p>
 
 #### Stopwatch activity
-![stopwatch-activity][../screenshots/Screenshot_20190118-184130_Health-Tracker.jpg]
+<p float="left">
+<img src="./screenshots/Screenshot_20190118-184130_Health-Tracker.jpg" width="150" />
+</p>
 
 #### Notifications
 <p float="left">
 <img src="./screenshots/Screenshot_20190119-130622_Health-Tracker.jpg" width="150" />
 </p>
+
+
