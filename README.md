@@ -1,8 +1,10 @@
 # Health-Tracker
-An Android app that will be the focus of all of the work for this half of the course: a health tracker app.
+An Android app that will be the focus of all of the work for the second half of the Java course: a health tracker app.
 While we’re starting small, the features that will be built will carry over into the next several labs.
 
-### Day 1
+[Activity screenshots](#activity-screenshots)
+
+### Day 1 - Lab 26: Android fundamentals
 
 1. **Finger Exercises**
 * One key part of health is building finger strength and endurance. On the main page, display a number and a button.
@@ -20,7 +22,7 @@ __*NOTE*__: This feature has been redacted from the task list due to its difficu
 * You can use System.currentTimeMillis() to track the start and current time at the millisecond-level.    
     
 3. **Inspiring Image Carousel**
-At the top of the main page, I want to inspire the users with images of the type of person they can become. 
+At the top of the main page, I want to inspire the users with images of the type of person they can become.
 
 * Display an image with a caption below it. (The caption should NOT be part of the image; it should be text.)
 * Allow users to cycle through images and read the captions
@@ -31,9 +33,7 @@ At the top of the main page, I want to inspire the users with images of the type
 * Add all of the items to an array.
 * Your app should use the array of image objects to cycle through what it’s showing.
     
-### Day 2
-
-__*NOTE*__: Due to the difficulty in time and implementation this lab has been scrapped, but these are still valuable exercises
+### Day 2 - Lab 27: Intents, notifications, & XML
 
 Yesterday, all of your app’s features were on the home page. Let’s clear up that homepage and allow users to visit individual pages for those various features.
 
@@ -52,7 +52,9 @@ Yesterday, all of your app’s features were on the home page. Let’s clear up 
 * Apply consistent styling across the various Activities in your app.
 * Make sure they have a consistent look and feel, and that buttons are in similar locations on each screen.
 
-### Day 3
+
+
+### Day 3 - Lab 28: Layouts, databases, & listviews
 
 1. **Database setup**
 * Set up a database to contain Exercise data.
@@ -79,6 +81,31 @@ Yesterday, all of your app’s features were on the home page. Let’s clear up 
     * either let the user enter when they completed the exercise
     * or use the time when they hit submit on the form.      
 
-### Day 4
+### Day 4 - Lab 29: Testing, Espresso, & permissions
 
 1. 
+
+
+### Day 5 - Lab 32: Layouts, databases, & listviews again
+
+1. 
+
+
+### Day 6 - Lab 33: Threading, asynch, web
+
+1. 
+
+### Activity screenshots
+
+
+#### Main activity
+![main-activity][./screenshots/Screenshot_20190118-184055_Health-Tracker]
+
+#### Fingercises activity
+![fingercises-activity][./screenshots/Screenshot_20190118-184113_Health-Tracker]
+
+#### Stopwatch activity
+![stopwatch-activity][./screenshots/Screenshot_20190118-184130_Health-Tracker]
+
+#### Notifications
+![notifications][./screenshots/Screenshot_20190119-130622_Health-Tracker]
