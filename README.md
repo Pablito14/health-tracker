@@ -109,5 +109,5 @@ Yesterday, all of your app’s features were on the home page. Let’s clear up 
 
 #### Notifications
 <p float="left">
-<img src="./Screenshot_20190119-130622_Health-Tracker.jpg" width="150" />
+<img src="./screenshots/Screenshot_20190119-130622_Health-Tracker.jpg" width="150" />
 </p>
