@@ -99,7 +99,7 @@ Yesterday, all of your app’s features were on the home page. Let’s clear up 
 
 
 #### Main activity
-![main-activity][./screenshots/Screenshot_20190118-184055_Health-Tracker.jpg]
+![main-activity][/screenshots/Screenshot_20190118-184055_Health-Tracker.jpg]
 
 #### Fingercises activity
 ![fingercises-activity][./screenshots/Screenshot_20190118-184113_Health-Tracker.jpg]
