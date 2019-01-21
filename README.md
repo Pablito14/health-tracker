@@ -4,6 +4,8 @@ While we’re starting small, the features that will be built will carry over in
 
 [Activity screenshots](#activity-screenshots)
 
+[Resources](#resources)
+
 ### Day 1 - Lab 26: Android fundamentals
 
 1. **Finger Exercises**
@@ -119,3 +121,19 @@ Yesterday, all of your app’s features were on the home page. Let’s clear up 
 </p>
 
 
+### Resources
+
+* [Android Docs: Room Database tutorial](https://codelabs.developers.google.com/codelabs/android-room-with-a-view/#0)
+* [Android Docs: Notifications](https://developer.android.com/training/notify-user/channels#java)
+* [freeCodeCamp: A Beginner’s Guide to the Room Persistence Library](https://medium.freecodecamp.org/room-sqlite-beginner-tutorial-2e725e47bfab)
+
+* A big thank you to all the wonderful people who contributed both as peers and mentors;
+    * Darrin Howell
+    * Tara Johnson
+    * Nick Crain
+    * Zahra Mohamed
+    * Mason Basset
+    * Michelle Ferreirae
+    * Kevin Rosales
+    * Amy Cohen
+    * Sooz Richman

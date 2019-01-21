@@ -24,7 +24,7 @@ public class ExerciseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercise);
 
-        //Thank you to Kevin Rosales, Nicholas Crain, for the help on the allowMainThreadQueries & the fallBackToDestructiveMigration method chaining.
+        //Thank you to Kevin Rosales, Nick Crain, for the help on the allowMainThreadQueries & the fallBackToDestructiveMigration method chaining.
         db = Room.databaseBuilder(getApplicationContext(), ExerciseDatabase.class, "Exercises").allowMainThreadQueries().fallbackToDestructiveMigrationFrom().build();
 
         if (db.getExerciseDao().getAllExercises().isEmpty()) {
